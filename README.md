@@ -1,6 +1,11 @@
 ## CKS Killer.sh
 
-Install k8s cluster, must be root `sudo -i` first
+Install k8s cluster
+
+> must be root
+```bash
+sudo -i
+```
 
 #### cks-master
 ```bash
