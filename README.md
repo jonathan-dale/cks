@@ -2,10 +2,7 @@
 
 Install k8s cluster
 
-> must be root
-```bash
-sudo -i
-```
+> must be root `sudo -i`
 
 #### cks-master
 ```bash
