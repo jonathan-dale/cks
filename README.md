@@ -1,2 +1,18 @@
-# cks
-cks study with killer.sh
+## CKS Killer.sh
+
+Install k8s cluster
+#### cks-master
+```bash
+sudo -i
+bash <(curl -s https://raw.githubusercontent.com/killer-sh/cks-course-environment/master/cluster-setup/latest/install_master.sh)
+```
+
+
+#### cks-worker
+```bash
+sudo -i
+bash <(curl -s https://raw.githubusercontent.com/killer-sh/cks-course-environment/master/cluster-setup/latest/install_worker.sh)
+```
+
+
+#### run the printed kubeadm-join-command from the master on the worker
